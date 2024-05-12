@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body::-webkit-scrollbar {
+    display: none;}
+}
+.con{
+    height: 100%;
+    width: 100%;
+    overflow: none;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    
+}
+nav{
+    width:100%;
+}
+
+.navcon{
+    width:100vw;
+    /* background-color: rgb(30, 82, 104); */
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+
+}
+#navlist{
+    padding:15px;
+    list-style:none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color: rgb(145, 43, 45);
+    font-weight: 600;  
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+    /* color: white; */
+}
+#navitem{
+    display: flex;
+    gap: 20px;
+}
+.footer{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    
+    width:100vw;
+    text-align: center;
+    min-height: 40px;
+}
+.footer p {
+    color: azure;
+    font-size: 2rem;
+}
+
+.menu{
+    width:70%;
+    margin:auto;
+    /* border: 1px black solid; */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 0px 0px 30px purple;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.right img{
+    height:235px; 
+    width:275px;
+    border-radius: 20px;
+    transition: all 0.4s 0s linear;
+    box-shadow: 2px 2px 20px hsl(66, 48%, 58%);
+}
+.right img:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 40px rgb(46, 113, 190);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left h1{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px ;
+}
+.left h2{
+    font-size: 2rem;
+}
+.left ind{
+    font: 1.3rem;
+}
+.left rep{
+    font: 1.1rem;
+}
